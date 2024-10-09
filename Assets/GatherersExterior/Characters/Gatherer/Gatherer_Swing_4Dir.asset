@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de7397d6339fb0428249f97b5599820, type: 3}
+  m_Name: Gatherer_Swing_4Dir
+  m_EditorClassIdentifier: 
+  <Up>k__BackingField: {fileID: 7400000, guid: 3531fab2383e84a4cacf0f6a30d88af8, type: 2}
+  <Down>k__BackingField: {fileID: 7400000, guid: f89740a49328abb40a34d9d4120fa75b, type: 2}
+  <Left>k__BackingField: {fileID: 7400000, guid: de626ef829243054298b21877d8cf989, type: 2}
+  <Right>k__BackingField: {fileID: 7400000, guid: 7a1dcdcec442b89449a44866fd43023a, type: 2}

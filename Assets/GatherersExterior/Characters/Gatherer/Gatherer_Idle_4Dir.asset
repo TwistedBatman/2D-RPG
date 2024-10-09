@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de7397d6339fb0428249f97b5599820, type: 3}
+  m_Name: Gatherer_Idle_4Dir
+  m_EditorClassIdentifier: 
+  <Up>k__BackingField: {fileID: 7400000, guid: 61dbc3db4bcce4f43b1af219abad1095, type: 2}
+  <Down>k__BackingField: {fileID: 7400000, guid: 6856623d0e218084c9a41295159dd843, type: 2}
+  <Left>k__BackingField: {fileID: 7400000, guid: 34aa5e0af1859ea44bb8b4450242e684, type: 2}
+  <Right>k__BackingField: {fileID: 7400000, guid: 1d416979cfc79ed41a96ebe5c3d647ed, type: 2}

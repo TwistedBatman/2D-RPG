@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 8de7397d6339fb0428249f97b5599820, type: 3}
+  m_Name: Gatherer_Walk_4Dir
+  m_EditorClassIdentifier: 
+  <Up>k__BackingField: {fileID: 7400000, guid: 558bd33c61f6b8b43a16e7caf6b5dc27, type: 2}
+  <Down>k__BackingField: {fileID: 7400000, guid: be98b4afdbcb9a4449dd31643a08ec50, type: 2}
+  <Left>k__BackingField: {fileID: 7400000, guid: 42810384f0f3a684ea3b7d31ceabf822, type: 2}
+  <Right>k__BackingField: {fileID: 7400000, guid: 094b277407b02dc4180a44355c056383, type: 2}

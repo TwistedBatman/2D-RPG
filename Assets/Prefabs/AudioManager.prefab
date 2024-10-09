@@ -1,0 +1,107 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1708138983421202284
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6852704473443372415}
+  - component: {fileID: 5430893584559023842}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6852704473443372415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708138983421202284}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 1
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &5430893584559023842
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1708138983421202284}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: de21b6bbb9d869e4cb3bb6953b694f50, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  sounds:
+  - name: ButtonClick
+    clip: {fileID: 8300000, guid: 0df88448abf983f488e479c7f4a866df, type: 3}
+    group: {fileID: 24300002, guid: b1ba9055544311040ae2acef8bb2645f, type: 2}
+    volume: 0.536
+    loop: 0
+    source: {fileID: 0}
+  - name: WeaponSwing
+    clip: {fileID: 8300000, guid: 5df6f0b9634238b42a47e5d3dcbe3ef3, type: 3}
+    group: {fileID: 24300002, guid: b1ba9055544311040ae2acef8bb2645f, type: 2}
+    volume: 0.571
+    loop: 0
+    source: {fileID: 0}
+  - name: HittingTree
+    clip: {fileID: 8300000, guid: 0d47e3f16e51cd245a673cc5e49a061e, type: 3}
+    group: {fileID: 24300002, guid: b1ba9055544311040ae2acef8bb2645f, type: 2}
+    volume: 0.503
+    loop: 0
+    source: {fileID: 0}
+  - name: TreeCutDown
+    clip: {fileID: 8300000, guid: 4bc7e8ccd8f09c94390ae0facff92d71, type: 3}
+    group: {fileID: 24300002, guid: b1ba9055544311040ae2acef8bb2645f, type: 2}
+    volume: 0.382
+    loop: 0
+    source: {fileID: 0}
+  - name: Coins
+    clip: {fileID: 8300000, guid: ef0ad810a85a57648908369395b7d913, type: 3}
+    group: {fileID: 24300002, guid: b1ba9055544311040ae2acef8bb2645f, type: 2}
+    volume: 0.36
+    loop: 0
+    source: {fileID: 0}
+  - name: HittingRock
+    clip: {fileID: 8300000, guid: 6fe3a961a6a735e4ca5b3c3cbbdeaa56, type: 3}
+    group: {fileID: 24300002, guid: b1ba9055544311040ae2acef8bb2645f, type: 2}
+    volume: 0.438
+    loop: 0
+    source: {fileID: 0}
+  - name: PotionDrink
+    clip: {fileID: 8300000, guid: 6b214a5a9374a9c42b995a430d80935e, type: 3}
+    group: {fileID: 24300002, guid: b1ba9055544311040ae2acef8bb2645f, type: 2}
+    volume: 0.331
+    loop: 0
+    source: {fileID: 0}
+  - name: PickUp
+    clip: {fileID: 8300000, guid: 3cf9187ae0c59b2499f0c516ee7b1023, type: 3}
+    group: {fileID: 24300002, guid: b1ba9055544311040ae2acef8bb2645f, type: 2}
+    volume: 0.096
+    loop: 0
+    source: {fileID: 0}
+  - name: RockBreak
+    clip: {fileID: 8300000, guid: 676ddea1c3b6f8547834f7bdab8a57b4, type: 3}
+    group: {fileID: 24300002, guid: b1ba9055544311040ae2acef8bb2645f, type: 2}
+    volume: 0.449
+    loop: 0
+    source: {fileID: 0}
+  - name: Music
+    clip: {fileID: 8300000, guid: 7343ab5620b464a44a745e229f303b42, type: 3}
+    group: {fileID: 24300002, guid: bccda13648fc9414481ef17e6322f113, type: 2}
+    volume: 0.522
+    loop: 1
+    source: {fileID: 0}
