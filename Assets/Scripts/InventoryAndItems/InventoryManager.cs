@@ -237,7 +237,6 @@ public class InventoryManager : MonoBehaviour, IDataPersistence
             //Debug.Log("item " + item.name + " original  " + originalItem.name + " type " + originalItem.type);
             if (item != null && item.tag == originalItem.type && item.name == originalItem.name)
             {
-                Debug.Log("MPhke" + item.tag);
                 newItemObject.name = originalItem.name;
                 Tooltip originalTooltip = item.GetComponent<Tooltip>();
                 if (originalTooltip != null)
